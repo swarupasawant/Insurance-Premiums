@@ -95,6 +95,7 @@ class DataIngestion:
 
             train_file_path = os.path.join(self.data_ingestion_config.ingested_train_dir,
                                             file_name)
+            print(988,train_file_path)
 
             test_file_path = os.path.join(self.data_ingestion_config.ingested_test_dir,
                                         file_name)

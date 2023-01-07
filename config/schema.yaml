@@ -7,3 +7,18 @@ columns:
   region: object,
   expenses: float64
  
+ 
+numerical_columns:
+  - age
+  - bmi
+  - children
+
+
+categorical_columns:
+  - sex
+  - smoker
+  - region
+
+
+
+target_column: expenses
